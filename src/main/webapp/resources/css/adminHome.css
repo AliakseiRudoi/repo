@@ -1,0 +1,113 @@
+@CHARSET "UTF-8";
+
+.headerAndFooterDiv {
+	width: 100%;
+	height: 100%;
+	border: 2px black solid;
+}
+
+/* CSS adminHome */
+#titleButton {
+	text-decoration: none;
+	color: black;
+}
+
+#mainBody {
+	border: 1px solid;
+	border-color: #CCCCCC;
+	padding: 10px;
+}
+
+#newsAuthorDiv {
+	height: 100%;
+	width: 250px;
+	float: left;
+	color: red;
+	font-size: 13px;
+}
+
+#newsCreationDateDiv {
+	height: 30px;
+	width: 200px;
+	float: right;
+	text-decoration: underline;
+}
+
+#newsTitleDiv {
+}
+
+#newsShortTextDiv {
+	height: 100%;
+	width: 600px;
+}
+
+#newsTagsDiv {
+	height: 100%;
+	width: 300px;
+	float: left;
+}
+
+#newsCommentsDiv {
+	height: 100%;
+	width: 150px;
+	float: right;
+}
+
+#linkReadMoreDiv {
+	height: 100%;
+	width: 150px;
+	float: right; 
+}
+
+#paginationDiv {
+	height: 100%;
+	width: 600px;
+	text-align: center;
+	float: none;
+	bottom: 0px;
+	margin: auto;
+}
+
+.paginationLink {
+	color: black;
+}
+
+.paginationLink:VISITED {
+	color: black;
+}
+
+.paginationLinkFL {
+	text-decoration: none;
+	color: black;
+}
+
+.paginationLinkFL:VISITED {
+	text-decoration: none;
+	color: black;
+}
+
+#paginForm {
+	display: inline-block;
+}
+
+#searchMainDiv {
+	width: 550px;
+	height: 100%;
+	margin: auto;
+}
+
+#selectAndCheapBoxAreaDiv {
+	border: 1px green solid;
+	height: 100%;
+	width: 600px;
+}
+
+#selectAuthorsDiv {
+	border: 1px red solid;
+	width: 200px;
+	height: 100%;
+}
+
+#tableSearch {
+	float: left;
+}

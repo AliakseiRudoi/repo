@@ -1,0 +1,209 @@
+@CHARSET "UTF-8";
+
+
+/* CSS editSingleNews */
+
+#commentForm label.error, #commentForm input.submit {
+		margin-left: 10px;
+		color: red;
+		font-size: 18px;
+		clear: both;
+	}
+	
+#newsForm label.error, #newsForm input.submit {
+		margin-left: 10px;
+		color: red;
+		font-size: 18px;
+		clear: both;
+	}
+
+.error-box{
+    color: red;
+    font-size: 12px;
+
+input:required {
+    border: 1px solid red; 
+   }
+   
+#inputNewsTitle {
+	/* border: 1px solid red; */
+}
+
+#mainBody {
+	border: 1px solid;
+	border-color: #CCCCCC;
+	padding: 10px;
+}
+
+#newsTitleDiv {
+	font-weight: bold;
+	height: 100%;
+	width: 500px;
+	float: left;
+}
+
+#newsAuthorDiv {
+	height: 100%;
+	width: 250px;
+	float: left;
+	padding-top: 10px;
+}
+
+#newsCreationDateDiv {
+	height: 100%;
+	width: 200px;
+	float: right;
+	text-decoration: underline;
+}
+
+#newsShortTextDiv {
+	height: 100%;
+	width: 780px;
+	padding-top: 10px;
+}
+
+#newsTagsDiv {
+	height: 100%;
+	width: 300px;
+	float: right;
+}
+
+#newsCommentsDiv {
+	height: 100%;
+	width: 150px;
+	float: right;
+	margin-bottom: 15px;
+}
+
+#linkReadMoreDiv {
+	height: 100%;
+	width: 150px;
+	float: right;
+}
+
+#paginationDiv {
+	height: 100%;
+	width: 600px;
+	text-align: center;
+	float: none;
+	bottom: 0px;
+	margin: auto;
+}
+
+#paginForm {
+	display: inline-block;
+}
+
+#searchMainDiv {
+	width: 550px;
+	height: 100%;
+	margin: auto;
+}
+
+#selectAndCheapBoxAreaDiv {
+	border: 1px green solid;
+	height: 100%;
+	width: 600px;
+}
+
+#selectAuthorsDiv {
+	border: 1px red solid;
+	width: 200px;
+	height: 100%;
+}
+
+#tableSearch {
+	float: left;
+}
+
+/* #newsTitleDiv {
+	font-weight: bold;
+	height: 100%;
+	width: 400px;
+	float: left;
+} */
+#newsAuthorDiv {
+	height: 100%;
+	width: 180px;
+	float: left;
+}
+
+#newsCreationDateDiv {
+	height: 100%;
+	width: 200px;
+	float: right;
+	text-decoration: underline;
+	padding-top: 10px;
+}
+
+#newsFullTextDiv {
+	height: 100%;
+	width: 65%;
+	padding-top: 20px;
+}
+
+#newsCommentsDiv {
+	margin-left: 0px;
+	width: 100%;
+	border: 1 px black solid;
+}
+
+#newsCommentsTextDiv {
+	margin-right: 30px;
+	border: 1px solid black;
+	width: 450px;
+	background-color: #D1D1D1;
+	min-height: 30px;
+	word-wrap: break-word;
+}
+
+#newsCommentCreationDateDiv {
+	text-decoration: underline;
+}
+
+#textDiv {
+	width: 400px;
+	border: 1px solid black;
+	min-height: 30px;
+	float: left;
+}
+
+#commentForm {
+	padding-top: 30px;
+}
+
+#bottomPostComment {
+	margin-top: 5px;
+}
+
+#buttomDiv {
+	margin-left: 0px;
+	margin-bottom: 20px;
+}
+
+#buttomPrevDiv {
+	float: left;
+	margin-bottom: 15px;
+	margin-left: 0px;
+}
+
+#buttomNextDiv {
+	float: right;
+	margin-bottom: 15px;
+}
+
+#previousNextButtons {
+	height: 30px;
+	width: 100%;
+	padding-top: 10px;
+	margin-left: 0px;
+	padding-left: 0px;
+	margin-top: 20px;
+}
+
+#bottomDeleteComment {
+	width: 18px;
+	height: 18px;
+	padding: 3px;
+	font-size: 11px;
+}

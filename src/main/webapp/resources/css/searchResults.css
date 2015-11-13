@@ -1,0 +1,61 @@
+@CHARSET "UTF-8";
+
+/* CSS searchPage */
+#newsTagsDiv {
+	height: 100%;
+	width: 300px;
+	float: right;
+}
+
+#newsCommentsDiv {
+	height: 100%;
+	width: 150px;
+	float: right;
+}
+
+#linkReadMoreDiv {
+	height: 100%;
+	width: 150px;
+	float: right;
+}
+
+#paginationDiv {
+	height: 100%;
+	width: 600px;
+	text-align: center;
+	float: none;
+	bottom: 0px;
+	margin: auto;
+}
+
+#paginForm {
+	display: inline-block;
+}
+
+#searchMainDiv {
+	width: 800px;
+	height: 100%;
+	/* border: 1px black solid; */
+}
+
+#searchMainDiv {
+	width: 550px;
+	height: 100%;
+	margin: auto;
+}
+
+#selectAndCheapBoxAreaDiv {
+	border: 1px green solid;
+	height: 100%;
+	width: 600px;
+}
+
+#selectAuthorsDiv {
+	border: 1px red solid;
+	width: 200px;
+	height: 100%;
+}
+
+#tableSearch {
+	float: left;
+}

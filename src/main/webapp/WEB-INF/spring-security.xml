@@ -1,0 +1,34 @@
+<beans:beans xmlns="http://www.springframework.org/schema/security"
+	xmlns:beans="http://www.springframework.org/schema/beans" xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:security="http://www.springframework.org/schema/security"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans  
+ http://www.springframework.org/schema/beans/spring-beans-3.0.xsd  
+ http://www.springframework.org/schema/security  
+ http://www.springframework.org/schema/security/spring-security-3.2.xsd  http://www.springframework.org/schema/mvc 
+        http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+
+	<security:http pattern="/resources/**" security="none" />
+
+	<http auto-config="true" use-expressions="true">
+	
+		<intercept-url pattern='/news/adminHome/**' access="hasRole('ROLE_ADMIN')" />
+		<form-login login-page="/news/" default-target-url="/news/adminHome/1"
+			authentication-failure-url="/news/fail2login"  login-processing-url="/news/j_spring_security_check"/>
+		<logout logout-success-url="/news/" invalidate-session="true" logout-url="/news/logout"/>
+		
+	</http>
+
+	<mvc:annotation-driven />
+
+	<authentication-manager>
+		<authentication-provider>
+			<jdbc-user-service data-source-ref="dataSource"
+				users-by-username-query="select LOGIN,PASSWORD, ENABLED from USERS where LOGIN=?"
+				authorities-by-username-query="select USER_NAME,ROLE_NAME from ROLES where USER_NAME=?" />
+		</authentication-provider>
+	</authentication-manager>
+
+</beans:beans>
+
+
+

@@ -1,0 +1,51 @@
+@CHARSET "UTF-8";
+
+/* CSS addNewsPage.jsp */
+#addNewsTextArea {
+	overflow: scroll;
+}
+
+#inputNewsTitle {
+	margin-bottom: 10px;
+}
+
+#bottomUpdateNews {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+#tableUpdateNewsPage {
+	float: right;
+	margin-right: 370px;
+}
+
+#notValidDivMessageUpdateNews {
+	margin-left: 20px;
+	margin-bottom: 50px;
+	color: red;
+	font-weight: bold;
+}
+
+.inputInfoDiv {
+	float: left;
+	margin-right: 40px;
+	margin-left: 10px;
+	width: 40px;
+	font-weight: bold;
+}
+
+.inputDiv {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+#bottomAddNewsAddPage {
+	float: right;
+	margin-right: 185px;
+	margin-bottom: 20px;
+}
+
+#tableSearchAddNewsPage {
+	float: right;
+	margin-right: 140px;
+}

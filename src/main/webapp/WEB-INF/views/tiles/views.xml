@@ -1,0 +1,80 @@
+<!DOCTYPE tiles-definitions PUBLIC
+ "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+ "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+
+
+<tiles-definitions>
+
+
+	<definition name="base.definition" template="/WEB-INF/views/mainTemplate.jsp"> <!-- Общий шаблон -->
+		<put-attribute name="header" value="/WEB-INF/views/tiles/header.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/views/tiles/footer.jsp" />
+		<put-attribute name="menu" value="/WEB-INF/views/tiles/menu.jsp" />
+		<put-attribute name="body" value="" />
+
+	</definition>
+
+
+
+	<definition name="adminHome" extends="base.definition">
+		<put-attribute name="title" value="Home page" />
+		<put-attribute name="body" value="/WEB-INF/views/adminHome.jsp" />
+
+	</definition>
+
+	<definition name="searchPage" extends="base.definition">
+		<put-attribute name="title" value="Search page" />
+		<put-attribute name="body" value="/WEB-INF/views/searchPage.jsp" />
+
+	</definition>
+
+	<definition name="editSingleNews" extends="base.definition">
+		<put-attribute name="title" value="edit singl news" />
+		<put-attribute name="body" value="/WEB-INF/views/editSingleNews.jsp" />
+
+	</definition>
+
+	<definition name="addNewsPage" extends="base.definition">
+		<put-attribute name="title" value="add news page" />
+		<put-attribute name="body" value="/WEB-INF/views/addNewsPage.jsp" />
+
+	</definition>
+
+	<definition name="authorsPage" extends="base.definition">
+		<put-attribute name="title" value="author page" />
+		<put-attribute name="body" value="/WEB-INF/views/authorsPage.jsp" />
+
+	</definition>
+	
+	<definition name="tagsPage" extends="base.definition">
+		<put-attribute name="title" value="tags page" />
+		<put-attribute name="body" value="/WEB-INF/views/tagsPage.jsp" />
+
+	</definition>
+	
+	<definition name="editTagsPage" extends="base.definition">
+		<put-attribute name="title" value="tags page" />
+		<put-attribute name="body" value="/WEB-INF/views/editTagsPage.jsp" />
+
+	</definition>
+	
+	<definition name="editAuthorsPage" extends="base.definition">
+		<put-attribute name="title" value="edit author page" />
+		<put-attribute name="body" value="/WEB-INF/views/editAuthorsPage.jsp" />
+
+	</definition>
+	
+	<definition name="loginPage" extends="base.definition">
+		<put-attribute name="title" value="login page" />
+		<put-attribute name="body" value="/WEB-INF/views/loginPage.jsp" />
+
+	</definition>
+	
+	<definition name="errorPage" extends="base.definition">
+		<put-attribute name="title" value="error page" />
+		<put-attribute name="body" value="/WEB-INF/views/errorPage.jsp" />
+
+	</definition>
+
+
+</tiles-definitions>
